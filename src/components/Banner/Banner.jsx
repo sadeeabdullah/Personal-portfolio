@@ -17,7 +17,7 @@ const Banner = () => {
 I&apos;m a frontend developer fluent in React.js, HTML, CSS, and Tailwind CSS. I&apos;ve delved into the MERN stack, honing my skills in MongoDB and Express.js. My portfolio reflects a blend of captivating UIs and robust backend solutions, showcasing my passion for MERN development.</p>
                     <div>
                         
-                        <button className="p-3 border-slate-500 rounded-lg hover:bg-[#a5a6ff] text-sm border-2 bg-black shadow-black-500 hover:shadow-slate-400 shadow-2xl mt-8 flex justify-center items-center gap-2 "><VscSaveAs />Download Resume 🙌</button>
+                        <button className="p-3 border-slate-500 rounded-lg hover:bg-[#a5a6ff] border-2 bg-black shadow-black-500 hover:shadow-slate-400 shadow-2xl mt-8 flex justify-center items-center gap-2 text-lg"><VscSaveAs />Download Resume 🙌</button>
                     </div>
                     
                 </div>

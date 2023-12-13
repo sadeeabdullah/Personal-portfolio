@@ -1,0 +1,6 @@
+.bordered-text {
+    font-size: 48px;
+    color: transparent;
+    -webkit-text-stroke: 1px white; /* Adjust the width and color of the border */
+    text-stroke: 4px white; /* For browsers that support the standard text-stroke property */
+  }
