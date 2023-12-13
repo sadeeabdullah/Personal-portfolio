@@ -55,14 +55,14 @@ const Navbar = () =>{
     <li>
       <Link
         activeClass="bg-gradient-to-r from-[#331959] to-[#a769cc] text-white"
-        to="banner"
+        to="projects"
         spy={true}
         smooth={true}
         offset={-70}
         duration={800}
-        onClick={() => scrollTo('banner')}
+        onClick={() => scrollTo('projects')}
       >
-        Banner
+        Projects
       </Link>
     </li>
  
@@ -73,8 +73,8 @@ const Navbar = () =>{
         <div
       className={` ${
         scrolled
-          ? "navbar  fixed z-10 bg-base-500  bg-opacity-100 bg-white lg:bg-transparent text-black font-semibold max-w-screen-xl mx-auto font-rethink-sans "
-          : "navbar  fixed z-10 bg-base-500 bg-opacity-100 bg-white lg:bg-transparent   max-w-screen-xl mx-auto text-white font-semibold font-rethink-sans  "
+          ? "navbar  fixed z-10 bg-base-500  bg-opacity-50 backdrop-blur-sm bg-black lg:bg-transparent text-black font-semibold max-w-screen-xl mx-auto font-rethink-sans "
+          : "navbar  fixed z-10 bg-base-500 bg-opacity-100 bg-transparent lg:bg-transparent   max-w-screen-xl mx-auto text-white font-semibold font-rethink-sans  "
       }`}
     >
       <div className="navbar-start ">

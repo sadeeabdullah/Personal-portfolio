@@ -1,6 +1,7 @@
 import About from "./components/About/About"
 import Banner from "./components/Banner/Banner"
 import MyEducation from "./components/MyEducation/MyEducation"
+import Projects from "./components/Projects/Projects"
 import Navbar from "./components/menu/Navbar"
 
 
@@ -13,6 +14,7 @@ function App() {
       <Banner></Banner>
       <About ></About>
       <MyEducation></MyEducation>
+      <Projects></Projects>
     </div>
   )
 }
