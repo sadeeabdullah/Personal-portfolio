@@ -65,6 +65,19 @@ const Navbar = () =>{
         Projects
       </Link>
     </li>
+    <li>
+      <Link
+        activeClass="bg-gradient-to-r from-[#331959] to-[#4d54cf] text-white"
+        to="contact"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={800}
+        onClick={() => scrollTo('contact')}
+      >
+        Contact Us
+      </Link>
+    </li>
  
 </>
 
@@ -104,7 +117,7 @@ const Navbar = () =>{
       </div>
       
       <div className="navbar-end">
-      <div className="navbar-end hidden lg:flex">
+      <div className=" hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-lg space-x-2">
           {navItems}
         </ul>

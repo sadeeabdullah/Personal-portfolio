@@ -18,8 +18,8 @@ function App() {
       <About ></About>
       <MyEducation></MyEducation>
       <Projects></Projects>
-      <Contact></Contact>
       <Freequote></Freequote>
+      <Contact></Contact>
       <Footer></Footer>
     </div>
   )
