@@ -12,10 +12,13 @@ const Projects = () => {
             <SectionTitle  header={"MY PROJECTS"}></SectionTitle>
             </div>
             {/* div for the projects card */}
-            <div className="  lg:pl-16 w-full mx-auto grid grid-cols-1 md:grid-cols-2 space-y-4 lg:grid-cols-3"> 
+            <div className="   flex md:gap-12 lg:gap-24 w-full justify-center flex-col lg:flex-row mb-4"> 
+
+            <ProjectCard className="" image={tech} projectName={"Bistro Boss Resturant"} code={"https://github.com/sadeeabdullah/tech-spot"} live={"https://tech-spot-49674.firebaseapp.com/"}></ProjectCard>
+            <ProjectCard image={zen} projectName={"Zenhotel Online Booking"} code={"https://github.com/sadeeabdullah/zental-hotel"} live={"https://zenhotel-3e57c.firebaseapp.com/"}></ProjectCard>
                 <ProjectCard image={bistro} projectName={"Bistro Boss Resturant"} code={"https://github.com/sadeeabdullah/bistro-boss-client"} live={"https://bistro-boss-a82f9.firebaseapp.com/"}></ProjectCard>
-                <ProjectCard image={zen} projectName={"Zenhotel Online Booking"} code={"https://github.com/sadeeabdullah/zental-hotel"} live={"https://zenhotel-3e57c.firebaseapp.com/"}></ProjectCard>
-                <ProjectCard image={tech} projectName={"Bistro Boss Resturant"} code={"https://github.com/sadeeabdullah/tech-spot"} live={"https://tech-spot-49674.firebaseapp.com/"}></ProjectCard>
+                
+               
             </div>
         </div>
     );

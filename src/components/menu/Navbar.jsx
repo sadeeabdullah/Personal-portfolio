@@ -41,7 +41,7 @@ const Navbar = () =>{
     </li>
     <li>
       <Link
-        activeClass="bg-gradient-to-r from-[#331959] to-[#a769cc] text-white"
+        activeClass="bg-gradient-to-r from-[#331959] to-[#4d54cf] text-white"
         to="about"
         spy={true}
         smooth={true}
@@ -54,7 +54,7 @@ const Navbar = () =>{
     </li>
     <li>
       <Link
-        activeClass="bg-gradient-to-r from-[#331959] to-[#a769cc] text-white"
+        activeClass="bg-gradient-to-r from-[#331959] to-[#4d54cf] text-white"
         to="projects"
         spy={true}
         smooth={true}

@@ -52,6 +52,7 @@ const About = () => {
                 <p className="flex items-center gap-2 shadow-[#38b6ff] shadow-md border-2 w-fit px-3 py-1 rounded-full text-lg border-[#38b6ff]"><img className="h-10 rounded-full" src="https://skillicons.dev/icons?i=mongodb" alt="" />Mongodb</p>
                 <p className="flex items-center gap-2 shadow-[#38b6ff] shadow-md border-2 w-fit px-3 py-1 rounded-full text-lg border-[#38b6ff]"><img className="h-10 rounded-full" src="https://skillicons.dev/icons?i=express" alt="" />Express Js</p>
                 <p className="flex items-center gap-2 shadow-[#38b6ff] shadow-md border-2 w-fit px-3 py-1 rounded-full text-lg border-[#38b6ff]"><img className="h-10 rounded-full" src="https://skillicons.dev/icons?i=github" alt="" />Github</p>
+                <p className="flex items-center gap-2 shadow-[#38b6ff] shadow-md border-2 w-fit px-3 py-1 rounded-full text-lg border-[#38b6ff]"><img className="h-10 rounded-full" src="https://skillicons.dev/icons?i=firebase" alt="" />Firebase</p>
                 
             </div>
           </div>
