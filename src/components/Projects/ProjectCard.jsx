@@ -4,7 +4,7 @@ import { SiAppwrite } from "react-icons/si";
 import { TbLiveView } from "react-icons/tb";
 const ProjectCard = ({image,projectName,code,live}) => {
     return (
-        <div className=" w-72 rounded-lg shadow-[#3199d1] shadow-xl">
+        <div className=" w-72 rounded-lg shadow-[#3199d1] mb-4 lg:mb-0 shadow-xl">
             {/* div for image */}
             <div>
                 <img className="h-64 w-full rounded-t-lg" src={image} alt="" />

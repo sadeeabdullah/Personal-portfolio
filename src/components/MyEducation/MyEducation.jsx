@@ -4,7 +4,7 @@ import  "./Edu.css"
 
 const MyEducation = () => {
     return (
-        <div className="w-[85vw] mx-auto mt-20 flex lg:flex-row-reverse flex-col justify-center items-center gap-12">
+        <div className="max-w-screen-xl mx-auto mt-20 flex lg:flex-row-reverse flex-col justify-center items-center gap-12">
             {/* div for education */}
             <div className="text-white lg:w-1/3">
                 <SectionTitle header={"EDUCATION"}></SectionTitle>

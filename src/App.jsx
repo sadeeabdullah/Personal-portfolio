@@ -6,20 +6,23 @@ import Freequote from "./components/FreeQuote/Freequote"
 import MyEducation from "./components/MyEducation/MyEducation"
 import Projects from "./components/Projects/Projects"
 import Navbar from "./components/menu/Navbar"
+import backgroundImage from "./assets/images/sitebg.png"
 
 
 
 function App() {
 
   return (
-    <div  className='bg-site-bg bg-fixed font-  min-h-screen bg-cover'>
+    <div  className='bg-fixed   min-h-screen bg-cover' style={{ backgroundImage: `url(${backgroundImage})` }}>
       <Navbar></Navbar>
       <Banner></Banner>
+      <div className="p-4 lg:p-0">
       <About ></About>
       <MyEducation></MyEducation>
       <Projects></Projects>
       <Freequote></Freequote>
       <Contact></Contact>
+      </div>
       <Footer></Footer>
     </div>
   )

@@ -82,27 +82,26 @@ const Navbar = () =>{
 </>
 
     return (
-      <div className="mx-auto max-w-screen-xl font-rethink-sans">
+      
         <div
-      className={` ${
-        scrolled
-          ? "navbar  fixed z-10 bg-base-500  bg-opacity-50 backdrop-blur-sm bg-black lg:bg-transparent text-black font-semibold max-w-screen-xl mx-auto font-rethink-sans "
-          : "navbar  fixed z-10 bg-base-500 bg-opacity-100 bg-transparent lg:bg-transparent   max-w-screen-xl mx-auto text-white font-semibold font-rethink-sans  "
-      }`}
+        className={` ${
+          scrolled
+            ? "navbar  fixed z-10 bg-base-500  bg-opacity-50 backdrop-blur-sm bg-black lg:bg-transparent text-black font-semibold max-w-screen-xl mx-auto font-rethink-sans "
+            : "navbar  fixed z-10 bg-base-500 bg-opacity-100 bg-transparent lg:bg-transparent   max-w-screen-xl mx-auto text-white font-semibold font-rethink-sans  "
+        }`}
+      
     >
-      <div className="navbar-start ">
+      <div className=" navbar-start">
         <div className="dropdown">
           <label tabIndex={0} htmlFor="my-drawer-2"  className="drawer lg:drawer-open drawer-button   btn btn-ghost lg:hidden">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[#a769cc] " fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
           </label>
           <div className="">
   <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
-  <div className="drawer-content flex flex-col items-center justify-center">
-    {/* Page content here */}
-  </div> 
+  
   <div className="drawer-side">
     <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay"></label> 
-    <ul className="menu p-4 w-2/5 min-h-full bg-transparent backdrop-filter space-y-2 backdrop-blur-lg  text-lg   text-white">
+    <ul className="menu p-4 w-2/5  min-h-full bg-transparent backdrop-filter space-y-2 backdrop-blur-lg  text-lg   text-white">
       {/* Sidebar content here */}
       <img className="w-[100px] mb-4" src={navLogo} alt="" />
       {navItems}
@@ -126,7 +125,6 @@ const Navbar = () =>{
       
       </div>
     </div>
-      </div>
     );
 };
 

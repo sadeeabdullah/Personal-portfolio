@@ -11,18 +11,18 @@ import Bootstrap from "../../assets/images/bootstrap.png"
 const About = () => {
   return (
    
-      <div id="about" className="w-[85vw] mx-auto mt-20 flex lg:flex-row flex-col justify-center items-center gap-12">
+      <div id="about" className="max-w-screen-xl mx-auto mt-20 flex lg:flex-row flex-col justify-center items-center gap-12">
         {/* div for picture */}
-        <div className="lg:w-1/3 flex ">
+        <div className="lg:w-1/3 flex sm:justify-center justify-center ">
           <img
             className="rounded-xl w-4/5  shadow-[#38b6ff] shadow-xl"
             src={photo}
             alt=""
           />
-          <img className="h-[20vh]  lg:w-1/5 -mt-10 -ml-14 lg:-mt-12 lg:-ml-12 " src={design} alt="" />
+          <img className="lg:h-[20vh] h-[30vh]  lg:w-1/5 -mt-10 -ml-14 lg:-mt-12 lg:-ml-12 " src={design} alt="" />
         </div>
         {/* div for text */}
-        <div className="text-white w-2/3">
+        <div className="text-white lg:w-2/3">
           <SectionTitle
             className=" text-start"
             header={"MY BIOGRAPHY"}

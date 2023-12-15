@@ -35,7 +35,7 @@ const Contact = () => {
       );
   };
   return (
-    <div id="contact" className="mt-20 w-[85vw] mx-auto flex lg:flex-row flex-col   text-white">
+    <div id="contact" className="mt-20 max-w-screen-xl mx-auto flex lg:flex-row flex-col   text-white">
       <div className="lg:w-1/3">
       <SectionTitle header={"GOT ANY PROJECT?"}></SectionTitle>
       <h2 className="text-3xl font-bold font-mono text-white">
