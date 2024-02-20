@@ -36,18 +36,19 @@ const Contact = () => {
   };
   return (
     <div id="contact" className="mt-20 max-w-screen-xl mx-auto flex lg:flex-row flex-col   text-white">
-      <div className="lg:w-1/3">
+      <div className="lg:w-1/3" data-aos="fade-right"  data-aos-duration="3000" id="projects" >
       <SectionTitle header={"GOT ANY PROJECT?"}></SectionTitle>
       <h2 className="text-3xl font-bold font-mono text-white">
         --Contact with me--
       </h2>
       </div>
-      <form className="lg:w-1/2 mx-auto text-black flex flex-col mt-4 lg:mt-0" ref={form} onSubmit={sendEmail}>
-       <div className="">
+      <div className="lg:w-1/2 mx-auto text-black flex flex-col mt-4 lg:mt-0"  data-aos="fade-left"  data-aos-duration="3000" >
+      <form ref={form} onSubmit={sendEmail}>
+       <div className="mb-4">
        <label className="text-start text-lg text-white pl-2">Your Name</label>
         <input placeholder="your name here" className="w-full bg-slate-800 opacity-60 p-4 text-white border-2 h-12 shadow-[#3199d1] shadow-lg border-[#3199d1] rounded-lg" type="text" name="user_name" />
        </div>
-        <div className="">
+        <div className="mb-4">
         <label className="text-start text-lg text-white pl-2">Email</label>
         <input placeholder="your email here" className="w-full bg-slate-800 opacity-60 p-4 text-white border-2 h-12 shadow-[#3199d1] shadow-lg border-[#3199d1] rounded-lg" type="email" name="user_email" />
         </div>
@@ -55,8 +56,9 @@ const Contact = () => {
        <label className="text-start text-lg text-white pl-2">Message</label>
         <textarea placeholder="type your message  here" className="w-full bg-slate-800 opacity-60 p-4 text-white border-2 h-24 shadow-[#3199d1] shadow-lg border-[#3199d1] rounded-lg" name="message" />
        </div>
-        <input className="p-3 border-slate-500 rounded-lg hover:bg-[#a5a6ff] border-2 bg-black shadow-black-500 hover:shadow-slate-400 shadow-2xl mt-8 flex justify-center items-center gap-2 text-lg text-white" type="submit" value="Send" />
+        <input className="p-3  border-slate-500 rounded-lg hover:bg-[#a5a6ff] border-2 bg-black shadow-black-500 hover:shadow-slate-400 shadow-2xl mt-10 flex justify-center items-center gap-2 text-lg text-white" type="submit" value="Send" />
       </form>
+      </div>
     </div>
   );
 };

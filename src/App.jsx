@@ -6,7 +6,7 @@ import Freequote from "./components/FreeQuote/Freequote"
 import MyEducation from "./components/MyEducation/MyEducation"
 import Projects from "./components/Projects/Projects"
 import Navbar from "./components/menu/Navbar"
-import backgroundImage from "./assets/images/sitebg.png"
+import backgroundImage from "./assets/images/sitebg.webp"
 
 
 

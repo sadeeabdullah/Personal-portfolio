@@ -86,8 +86,8 @@ const Navbar = () =>{
         <div
         className={` ${
           scrolled
-            ? "navbar  fixed z-10 bg-base-500  bg-opacity-50 backdrop-blur-sm bg-black lg:bg-transparent text-black font-semibold max-w-screen-xl mx-auto font-rethink-sans "
-            : "navbar  fixed z-10 bg-base-500 bg-opacity-100 bg-transparent lg:bg-transparent   max-w-screen-xl mx-auto text-white font-semibold font-rethink-sans  "
+            ? "navbar  sticky top-0  z-10 bg-base-500  bg-opacity-100 backdrop-blur-sm bg-black lg:bg-transparent text-white font-semibold max-w-screen-xl mx-auto font-rethink-sans "
+            : "navbar  fixed lg:px-24 z-10 bg-base-500 bg-opacity-100 bg-transparent lg:bg-transparent    flex mx-auto text-white font-semibold font-rethink-sans  "
         }`}
       
     >

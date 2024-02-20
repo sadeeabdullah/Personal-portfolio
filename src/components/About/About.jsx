@@ -1,5 +1,5 @@
-import photo from "../../assets/images/biograpy (2).png";
-import design from "../../assets/images/biograpy (1).png";
+import photo from "../../assets/images/biograpy (2).webp";
+import design from "../../assets/images/biograpy (1).webp";
 import SectionTitle from "../Shared/SectionTitle/SectionTitle";
 import react from "../../assets/images/reactjs.png"
 import tailwind from "../../assets/images/tailwindcss.png"
@@ -13,7 +13,10 @@ const About = () => {
    
       <div id="about" className="max-w-screen-xl mx-auto mt-20 flex lg:flex-row flex-col justify-center items-center gap-12">
         {/* div for picture */}
-        <div className="lg:w-1/3 flex sm:justify-center justify-center ">
+        <div className="lg:w-1/3 flex sm:justify-center justify-center "  data-aos="fade-right"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="1500">
           <img
             className="rounded-xl w-4/5  shadow-[#38b6ff] shadow-xl"
             src={photo}
@@ -22,8 +25,11 @@ const About = () => {
           <img className="lg:h-[20vh] h-[30vh]  lg:w-1/5 -mt-10 -ml-14 lg:-mt-12 lg:-ml-12 " src={design} alt="" />
         </div>
         {/* div for text */}
-        <div className="text-white lg:w-2/3">
-          <SectionTitle
+        <div className="text-white lg:w-2/3" data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="1500" >
+          <SectionTitle 
             className=" text-start"
             header={"MY BIOGRAPHY"}
           ></SectionTitle>
@@ -39,7 +45,10 @@ const About = () => {
           {/* div for skill */}
           <div>
             <h2 className="text-white text-3xl font-mono uppercase my-6 font-bold ">Skill & Interest</h2>
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-4" data-aos="fade-up"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="1500"
+     data-aos-duration="1500">
                 
                 <p className="flex items-center gap-2 shadow-[#38b6ff] shadow-md border-2 w-fit px-3 py-1 rounded-full text-lg border-[#38b6ff]"><img className="h-10 rounded-full" src={react} alt="" />React Js</p>
                 <p className="flex items-center gap-2 shadow-[#38b6ff] shadow-md border-2 w-fit px-3 py-1 rounded-full text-lg border-[#38b6ff]"><img className="h-10 rounded-full" src={js} alt="" />Js</p>
