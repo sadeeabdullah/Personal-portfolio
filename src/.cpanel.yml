@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/sadeeabdullah/testreact.sadeeabdullah.com/
+    - /bin/cp dist $DEPLOYPATH

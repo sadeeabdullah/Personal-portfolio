@@ -15,7 +15,7 @@ const Projects = () => {
             <div className="   flex flex-1 md:gap-12 lg:gap-24  w-full justify-center flex-col lg:flex-row "> 
 
             <div data-aos="fade-right"  data-aos-duration="1500">
-            <ProjectCard  className="" image={tech} projectName={"Bistro Boss Resturant"} code={"https://github.com/sadeeabdullah/tech-spot"} live={"https://tech-spot-49674.firebaseapp.com/"}></ProjectCard>
+            <ProjectCard  className="" image={tech} projectName={"TechSpot Online Shop"} code={"https://github.com/sadeeabdullah/tech-spot"} live={"https://tech-spot-49674.firebaseapp.com/"}></ProjectCard>
             </div>
             <div data-aos="fade-up"  data-aos-duration="1500">
             <ProjectCard image={zen} projectName={"Zenhotel Online Booking"} code={"https://github.com/sadeeabdullah/zental-hotel"} live={"https://zenhotel-3e57c.firebaseapp.com/"}></ProjectCard>
