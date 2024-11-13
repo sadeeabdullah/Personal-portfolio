@@ -1,8 +1,51 @@
-.glow{
-    background-color:#aa2a2a00;
-    height: 100px;
-    width: 100px;
-    filter: blur(120px);
+/* Banner Background Styles */
+.banner-background {
+    background: radial-gradient(circle, rgba(44, 20, 85, 1), rgba(30, 5, 50, 1)); /* Deep purple gradient background */
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .banner-background .circle {
     position: absolute;
-    z-index: -10;
-}
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(115, 87, 255, 0.8), rgba(39, 92, 148, 0.4)); /* Soft purple to teal gradient */
+    box-shadow: 0 0 200px rgba(115, 87, 255, 0.6); /* Wide and soft purple glow */
+  }
+  
+  /* Top-left circle */
+  .circle.top-left {
+    top: -100px;
+    left: -100px;
+    width: 350px;
+    height: 350px;
+    background: radial-gradient(circle, rgba(115, 87, 255, 0.9), rgba(39, 92, 148, 0.6)); /* Stronger purple to teal gradient */
+    box-shadow: 0 0 250px rgba(115, 87, 255, 0.6); /* Wider and more intense purple glow */
+  }
+  
+  /* Top-right circle */
+  .circle.top-right {
+    top: -50px;
+    right: -50px;
+    width: 250px;
+    height: 250px;
+    background: radial-gradient(circle, rgba(130, 90, 255, 0.7), rgba(0, 169, 255, 0.5)); /* Purple to light blue gradient */
+    box-shadow: 0 0 200px rgba(130, 90, 255, 0.7); /* Soft purple glow with some light blue */
+  }
+  
+  /* Bottom gradient */
+  .circle.bottom {
+    bottom: -50px;
+    left: 50px;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(115, 61, 207, 0.7), rgba(144, 107, 207, 0.5)); /* Faded purple background */
+    box-shadow: 0 0 300px rgba(115, 87, 255, 0.5); /* Soft glow with a wider radius */
+  }
+  
+  /* Glowing text effect */
+  .glow-text {
+    text-shadow: 0 0 10px rgba(168, 121, 233, 0.4), 0 0 20px rgba(180, 126, 255, 0.6);
+  }
+  
