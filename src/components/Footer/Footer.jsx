@@ -17,7 +17,7 @@ const Footer = () => {
         <a href="https://bd.linkedin.com/in/sadeeabdullah">
           <FaLinkedin />
         </a>
-        <a href="https://www.instagram.com/a_aesthetic__abdullah__/">
+        <a href="https://www.instagram.com/theabdullahspeaks/">
           <RiInstagramFill />
         </a>
       </div>
