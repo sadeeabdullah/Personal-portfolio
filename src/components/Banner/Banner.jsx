@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <div
       id="home"
-      className="banner-background text-white h-[900px] lg:h-[100vh] bg-fixed bg-cover bg-center flex items-center font-rethink-sans"
+      className="banner-background text-white h-[100vh] bg-fixed bg-cover bg-center flex items-center font-rethink-sans"
     >
       {/* Circles for background effect */}
       <div className="circle top-left"></div>
