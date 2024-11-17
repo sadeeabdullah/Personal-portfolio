@@ -3,7 +3,7 @@
     background: radial-gradient(circle, rgba(44, 20, 85, 1), rgba(30, 5, 50, 1)); /* Deep purple gradient background */
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
   }
   
